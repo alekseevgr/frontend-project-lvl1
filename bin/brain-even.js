@@ -6,13 +6,15 @@ const answer = readlineSync.question('Your answer: ');
 const correctAnswer = String(randomNumber % 2 === 0 ? 'yes' : 'no');
 const win = 'Correct!';
 const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}`;
+const champion = `Congratulations, ${name}`;
 const even = () => {
     if (answer === correctAnswer) {
-        return console.log(win);
+        console.log(win);
     }
     else {
         console.log(lose)
+        return
     }
-}
+  };
 // answer === correctAnswer ? win : lose;
 export default even
