@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { name } from '../src/cli.js';
+import name from '../bin/brain-games.js'
 const randomNumber = Math.round(Math.random() * 100);
 console.log(`Answer "yes" if the number is even, otherwise answer "no".\nQuestion: ${randomNumber}`);
 const answer = readlineSync.question('Your answer: ');
@@ -13,7 +13,6 @@ const even = () => {
     }
     else {
         console.log(lose)
-        return
     }
   };
 // answer === correctAnswer ? win : lose;
