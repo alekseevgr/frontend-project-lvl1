@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import name from './brain-games.js'
 const champion = `Congratulations, ${name}`;
@@ -20,4 +21,3 @@ if (answer === correctAnswer) {
 };
 };
 brainEven();
-// answer === correctAnswer ? win : lose
