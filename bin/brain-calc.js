@@ -26,8 +26,8 @@ const correctAnswer = () => {
     };
 }; 
 const win = 'Correct!';
-const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}`;
-if (answer === correctAnswer) {
+const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer()}'.\nLet's try again, ${name}`;
+if (answer === correctAnswer()) {
     console.log(win);
 } else {
     return console.log(lose);
