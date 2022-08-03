@@ -16,12 +16,13 @@ const startGame = (round, rules) => {
         };
         const [question, correctAnswer] = round();
         console.log(`Question: ${question}`)
+
         const answer = readlineSync.question('Your answer: ');
         const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}`;
 
         if (answer !== correctAnswer) {
             console.log(lose)
-            return
+            return;
         }
         console.log(win);
     };
