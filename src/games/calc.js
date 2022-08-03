@@ -11,7 +11,7 @@ const calcGame = () => {
         const expressionSymbol = ['+', '-', '*'];
         const symbol = expressionSymbol[_.random(expressionSymbol.length -1)]
         
-        const question = `Question: ${randomNumber} ${symbol} ${secondRandomNumber}`
+        const question = `${randomNumber} ${symbol} ${secondRandomNumber}`
         const pair = cons(randomNumber, secondRandomNumber);
 
             const correctAnswer = () => {

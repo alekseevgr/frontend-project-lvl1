@@ -7,7 +7,7 @@ const gcdGame = () => {
     const round = () => {
         const randomNumber = _.random(100);
         const secondRandomNumber = _.random(100);
-        const question = `Question: ${randomNumber} ${secondRandomNumber}`;
+        const question = `${randomNumber} ${secondRandomNumber}`;
 
         const correctAnswer = () => {
            let c;
