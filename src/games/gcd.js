@@ -3,12 +3,10 @@ import startGame from '../index.js';
 
 const gcdGame = () => {
     const rules = 'Find the greatest common divisor of given numbers.';
-
     const round = () => {
         const randomNumber = _.random(100);
         const secondRandomNumber = _.random(100);
         const question = `${randomNumber} ${secondRandomNumber}`;
-
         const correctAnswer = () => {
            let c;
            let a = randomNumber;
@@ -20,7 +18,7 @@ const gcdGame = () => {
                 c = a;
                 a = b;
                 b = c;
-            }
+            };
            };
         return String(a);
         };
