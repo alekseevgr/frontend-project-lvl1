@@ -20,6 +20,19 @@
 <dd>Definition of a prime number</dd>
 </dl>
 
+<h1> Game Trailer </h1>
+<dl>
+<dt>Brain Calc </dt>
+<dd><a href="https://asciinema.org/a/VTQ7AKkynQFtKovNdk0BX02F3" target="_blank"><img src="https://asciinema.org/a/VTQ7AKkynQFtKovNdk0BX02F3.svg" /></a></dd>
+<dt>Brain Progression</dt>
+<dd><a href="https://asciinema.org/a/w0zbaD2bKbclFU82Z9Oqb55Zj" target="_blank"><img src="https://asciinema.org/a/w0zbaD2bKbclFU82Z9Oqb55Zj.svg" /></a></dd>
+<dt>Brain Even</dt>
+<dd></dd>
+<dt>Brain Gcd</dt>
+<dd></dd>
+<dt>Brain Prime</dt>
+<dd></dd>
+</dl>
 <a href="https://asciinema.org/a/fmHxARRDSUMqMl4S5zDAAEMW9" target="_blank"><img src="https://asciinema.org/a/fmHxARRDSUMqMl4S5zDAAEMW9.svg" /></a>
 
 <a href="https://asciinema.org/a/33qQ4zFwrTtNoNIetKzcZQk5v" target="_blank"><img src="https://asciinema.org/a/33qQ4zFwrTtNoNIetKzcZQk5v.svg" /></a>
