@@ -7,7 +7,7 @@ const startGame = (round, rules) => {
     console.log(`Hello, ${name}!`);
     console.log(rules);
 
-    const endgame = `Congratulations, ${name}`;
+    const endgame = `Congratulations, ${name}!`;
     const win = 'Correct!';
 
     for (let i = 0; i <= roundsCount; i = i + 1) {
