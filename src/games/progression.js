@@ -19,10 +19,12 @@ const progGame = () => {
             if (i === 0 && (result[i] === '..')) {
                 correct = String(result[i + 1] - step)
                 }   else if (result[i] === '..') {
-                correct = String(result[i - 1] + step);}};
-            return correct;};
-            const question = result;
-            return [question, correctAnswer()];
+                correct = String(result[i - 1] + step);}
+            };
+        return correct
+        };
+        const question = result;
+    return [question, correctAnswer()];
     };
 startGame(round, rules);
 };

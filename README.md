@@ -6,6 +6,13 @@
 <h1> Description </h1>
 <p>Mind Games is a collection of five console games created using popular mobile brain training apps. Each game asks questions to be answered. After three correct answers, the game is considered completed. Incorrect results end the game and bring it back again.</p>
 
+<h1> Setup</h1>
+<ul>
+ <li>clone the repository or use git clone git@github.com:alekseevgr/frontend-project-lvl1.git</li>
+ <li>make install</li>
+ <li>Третий пункт</li>
+</ul>
+
 <h1>Game list </h1>
 <dl>
 <dt> Brain Calc </dt>
