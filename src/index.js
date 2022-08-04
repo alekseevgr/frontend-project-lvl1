@@ -13,7 +13,8 @@ const startGame = (round, rules) => {
 
   for (let i = 0; i <= roundsCount; i += 1) {
     if (i === roundsCount) {
-      return console.log(endgame);
+      console.log(endgame);
+      return;
     }
     const [question, correctAnswer] = round();
     console.log(`Question: ${question}`);
@@ -22,7 +23,8 @@ const startGame = (round, rules) => {
     const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`;
 
     if (answer !== correctAnswer) {
-      return console.log(lose);
+      console.log(lose);
+      return;
     }
     console.log(win);
   }
