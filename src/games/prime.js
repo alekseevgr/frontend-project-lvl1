@@ -1,10 +1,9 @@
 import _ from 'lodash';
-import { question } from 'readline-sync';
-import startGame from '../index.js'
+import startGame from '../index.js';
 const primeGame = () => {
 const rules = `Answer "yes" if given number is prime. Otherwise answer "no".`;
 const round = () => {
-    const randomNumber = _.random(100);
+    const randomNumber = _.random(10);
     const question = randomNumber;
     const correctAnswer = () => {
         if (randomNumber < 2){

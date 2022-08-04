@@ -3,8 +3,7 @@ import _ from 'lodash';
 import startGame from '../index.js';
 
 const calcGame = () => {
-    const rules = 'What is the result of the expression?.';
-    
+    const rules = 'What is the result of the expression?.'; 
     const round = () => {
         const randomNumber = _.random(20);
         const secondRandomNumber = _.random(20);
