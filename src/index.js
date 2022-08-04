@@ -18,7 +18,7 @@ const startGame = (round, rules) => {
         console.log(`Question: ${question}`)
 
         const answer = readlineSync.question('Your answer: ');
-        const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}`;
+        const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`;
 
         if (answer !== correctAnswer) {
             console.log(lose)
