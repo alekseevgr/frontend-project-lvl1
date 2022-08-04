@@ -22,7 +22,7 @@ const progGame = () => {
                 correct = String(result[i - 1] + step);}};
         return correct
         };
-        const question = result;
+        const question = result.join(' ');
     return [question, correctAnswer()];
     };
 startGame(round, rules);
