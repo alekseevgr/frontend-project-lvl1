@@ -10,7 +10,6 @@
 <ul>
  <li>clone the repository or use git clone git@github.com:alekseevgr/frontend-project-lvl1.git</li>
  <li>make install</li>
- <li>Третий пункт</li>
 </ul>
 
 <h1>Game list </h1>
