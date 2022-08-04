@@ -27,9 +27,9 @@
 <dt>Brain Progression</dt>
 <dd><a href="https://asciinema.org/a/w0zbaD2bKbclFU82Z9Oqb55Zj" target="_blank"><img src="https://asciinema.org/a/w0zbaD2bKbclFU82Z9Oqb55Zj.svg" /></a></dd>
 <dt>Brain Even</dt>
-<dd></dd>
+<dd><a href="https://asciinema.org/a/kAGkVr4Qlrm2xWCgVhXsnYDlI" target="_blank"><img src="https://asciinema.org/a/kAGkVr4Qlrm2xWCgVhXsnYDlI.svg" /></a></dd>
 <dt>Brain Gcd</dt>
-<dd></dd>
+<dd><a href="https://asciinema.org/a/8U1N98xyNsXEIABfS32roN48L" target="_blank"><img src="https://asciinema.org/a/8U1N98xyNsXEIABfS32roN48L.svg" /></a></dd>
 <dt>Brain Prime</dt>
-<dd></dd>
+<dd><a href="https://asciinema.org/a/05JGDhTHTh8aYYZ4Cbx7kApwJ" target="_blank"><img src="https://asciinema.org/a/05JGDhTHTh8aYYZ4Cbx7kApwJ.svg" /></a></dd>
 </dl>
