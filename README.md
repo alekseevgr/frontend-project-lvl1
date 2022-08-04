@@ -33,12 +33,3 @@
 <dt>Brain Prime</dt>
 <dd></dd>
 </dl>
-<a href="https://asciinema.org/a/fmHxARRDSUMqMl4S5zDAAEMW9" target="_blank"><img src="https://asciinema.org/a/fmHxARRDSUMqMl4S5zDAAEMW9.svg" /></a>
-
-<a href="https://asciinema.org/a/33qQ4zFwrTtNoNIetKzcZQk5v" target="_blank"><img src="https://asciinema.org/a/33qQ4zFwrTtNoNIetKzcZQk5v.svg" /></a>
-
-<a href="https://asciinema.org/a/do3FHYefFUIpdJ6MnKmtrLMlN" target="_blank"><img src="https://asciinema.org/a/do3FHYefFUIpdJ6MnKmtrLMlN.svg" /></a>
-
-<a href="https://asciinema.org/a/IQBwH6sp7qqi7fOsuYHPM0f5x" target="_blank"><img src="https://asciinema.org/a/IQBwH6sp7qqi7fOsuYHPM0f5x.svg" /></a>
-
-<a href="https://asciinema.org/a/qOw1wVT7n2ztQ1wuu1ZT98DQ9" target="_blank"><img src="https://asciinema.org/a/qOw1wVT7n2ztQ1wuu1ZT98DQ9.svg" /></a>
