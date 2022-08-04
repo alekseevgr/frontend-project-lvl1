@@ -17,16 +17,12 @@ const gcdGame = () => {
             } else if (a < b) {
                 c = a;
                 a = b;
-                b = c;
-            };
+                b = c};
            };
         return String(a);
         };
-
-        return [question, correctAnswer()];
+    return [question, correctAnswer()];
     };
-
-
     startGame(round, rules)
 };
 
