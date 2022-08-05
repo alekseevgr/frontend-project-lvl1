@@ -31,7 +31,7 @@
 <dt>Brain Calc </dt>
 <dd><a href="https://asciinema.org/a/VTQ7AKkynQFtKovNdk0BX02F3" target="_blank"><img src="https://asciinema.org/a/VTQ7AKkynQFtKovNdk0BX02F3.svg" /></a></dd>
 <dt>Brain Progression</dt>
-<dd><a href="https://asciinema.org/a/w0zbaD2bKbclFU82Z9Oqb55Zj" target="_blank"><img src="https://asciinema.org/a/w0zbaD2bKbclFU82Z9Oqb55Zj.svg" /></a></dd>
+<dd><a href="https://asciinema.org/a/7VJs8Poab3I6ZYN9E7BN8Qc53" target="_blank"><img src="https://asciinema.org/a/7VJs8Poab3I6ZYN9E7BN8Qc53.svg" /></a></dd>
 <dt>Brain Even</dt>
 <dd><a href="https://asciinema.org/a/kAGkVr4Qlrm2xWCgVhXsnYDlI" target="_blank"><img src="https://asciinema.org/a/kAGkVr4Qlrm2xWCgVhXsnYDlI.svg" /></a></dd>
 <dt>Brain Gcd</dt>
