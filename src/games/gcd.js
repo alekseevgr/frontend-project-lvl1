@@ -4,7 +4,7 @@ import startGame from '../index.js';
 const gcdGame = () => {
   const rules = 'Find the greatest common divisor of given numbers.';
   const round = () => {
-    const randomNumber = getRandomInt(0, 100);;
+    const randomNumber = getRandomInt(0, 100);
     const secondRandomNumber = getRandomInt(0, 100);
     const question = `${randomNumber} ${secondRandomNumber}`;
     const correctAnswer = () => {
