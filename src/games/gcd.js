@@ -1,11 +1,11 @@
-import _ from 'lodash';
+import getRandomInt from '../functionrandom.js';
 import startGame from '../index.js';
 
 const gcdGame = () => {
   const rules = 'Find the greatest common divisor of given numbers.';
   const round = () => {
-    const randomNumber = _.random(100);
-    const secondRandomNumber = _.random(100);
+    const randomNumber = getRandomInt(0, 100);;
+    const secondRandomNumber = getRandomInt(0, 100);
     const question = `${randomNumber} ${secondRandomNumber}`;
     const correctAnswer = () => {
       let c;

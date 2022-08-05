@@ -1,26 +1,25 @@
-import { car, cdr, cons } from '@hexlet/pairs';
-import _ from 'lodash';
+import getRandomInt from '../functionrandom.js';
 import startGame from '../index.js';
 
 const calcGame = () => {
   const rules = 'What is the result of the expression?.';
   const round = () => {
-    const randomNumber = _.random(20);
-    const secondRandomNumber = _.random(20);
+    const randomNumber = getRandomInt(0, 100);
+    const secondRandomNumber = getRandomInt(0, 100);
     const expressionSymbol = ['+', '-', '*'];
-    const symbol = expressionSymbol[_.random(expressionSymbol.length - 1)];
+    const symbol = expressionSymbol[getRandomInt(0, (expressionSymbol.length))];
 
     const question = `${randomNumber} ${symbol} ${secondRandomNumber}`;
-    const pair = cons(randomNumber, secondRandomNumber);
+    const pair = [randomNumber, secondRandomNumber];
 
     const correctAnswer = () => {
       switch (symbol) {
         case '+':
-          return String(car(pair) + cdr(pair));
+          return String(pair[0] + pair[1]);
         case '-':
-          return String(car(pair) - cdr(pair));
+          return String(pair[0] - pair[1]);
         default:
-          return String(car(pair) * cdr(pair));
+          return String(pair[0] * pair[1]);
       }
     };
     return [question, correctAnswer()];

@@ -8,26 +8,19 @@ const startGame = (round, rules) => {
   console.log(`Hello, ${name}!`);
   console.log(rules);
 
-  const endgame = `Congratulations, ${name}!`;
-  const win = 'Correct!';
-
-  for (let i = 0; i <= roundsCount; i += 1) {
-    if (i === roundsCount) {
-      console.log(endgame);
-      return;
-    }
+  for (let i = 0; i < roundsCount; i += 1) {
     const [question, correctAnswer] = round();
     console.log(`Question: ${question}`);
 
     const answer = readlineSync.question('Your answer: ');
-    const lose = `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`;
 
     if (answer !== correctAnswer) {
-      console.log(lose);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
       return;
     }
-    console.log(win);
+    console.log('Correct!');
   }
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default startGame;
