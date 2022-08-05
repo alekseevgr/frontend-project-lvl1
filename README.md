@@ -14,7 +14,7 @@
 
 <h1>Game list </h1>
 <dl>
-<dt> Brain Calc </dt>
+<dt> Brain Calc</dt>
 <dd>Arithmetic expressions to be evaluated</dd>
 <dt> Brain Progression </dt>
 <dd>Search for missing numbers in a sequence of numbers</dd>
