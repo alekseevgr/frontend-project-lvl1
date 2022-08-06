@@ -2,6 +2,18 @@ import getRandomInt from '../functionrandom.js';
 import startGame from '../index.js';
 
 const rules = 'What number is missing in the progression?';
+
+const progression = (result, step) => {
+  let correct;
+  for (let i = 0; i < result.length; i += 1) {
+    if (i === 0 && (result[i] === '..')) {
+      correct = String(result[i + 1] - step);
+    } else if (result[i] === '..') {
+      correct = String(result[i - 1] + step);
+    }
+  }
+  return correct;
+};
 const round = () => {
   const numberCount = getRandomInt(5, 10);
   let randomNumber = getRandomInt(0, 100);
@@ -14,19 +26,9 @@ const round = () => {
     j += 1;
   }
   result[getRandomInt(0, numberCount)] = '..';
-  const correctAnswer = () => {
-    let correct;
-    for (let i = 0; i < result.length; i += 1) {
-      if (i === 0 && (result[i] === '..')) {
-        correct = String(result[i + 1] - step);
-      } else if (result[i] === '..') {
-        correct = String(result[i - 1] + step);
-      }
-    }
-    return correct;
-  };
+  const correctAnswer = progression(result, step)
   const question = result.join(' ');
-  return [question, correctAnswer()];
+  return [question, correctAnswer];
 };
 const progGame = () => startGame(round, rules);
 
