@@ -26,7 +26,7 @@ const round = () => {
     j += 1;
   }
   result[getRandomInt(0, numberCount)] = '..';
-  const correctAnswer = progression(result, step)
+  const correctAnswer = progression(result, step);
   const question = result.join(' ');
   return [question, correctAnswer];
 };
