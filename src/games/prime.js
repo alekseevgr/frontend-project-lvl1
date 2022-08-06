@@ -3,12 +3,10 @@ import startGame from '../index.js';
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const prime = (num) => {
-  if (num < 2) {
-    return 'no';
-  }
   switch (num) {
-    case 2:
-      return 'yes';
+    case 0:
+    case 1:
+      return 'no';
     default:
       for (let i = 2; i < num; i += 1) {
         if (num % i === 0) {
