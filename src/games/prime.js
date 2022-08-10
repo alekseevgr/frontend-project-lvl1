@@ -1,24 +1,25 @@
-import getRandomInt from '../functionrandom.js';
+import getRandomInt from '../getRandomInt.js';
 import startGame from '../index.js';
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const prime = (num) => {
   if (num < 2) {
-    return 'no';
+    return false;
   }
+  let result = true;
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
-      return 'no';
+      result = false;
     }
   }
-  return 'yes';
+  return result;
 };
-const round = () => {
-  const randomNumber = getRandomInt(0, 10);
-  const question = randomNumber;
-  const correctAnswer = prime(randomNumber);
+const generateRound = () => {
+  const num = getRandomInt(0, 10);
+  const question = num;
+  const correctAnswer = prime(num) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
-const primeGame = () => startGame(round, rules);
+const runPrimeGame = () => startGame(generateRound, rules);
 
-export default primeGame;
+export default runPrimeGame;

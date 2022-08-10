@@ -1,10 +1,10 @@
-import getRandomInt from '../functionrandom.js';
+import getRandomInt from '../getRandomInt.js';
 import startGame from '../index.js';
 
 const rules = 'What is the result of the expression?.';
-const expressionSymbol = ['+', '-', '*'];
+const expressionSymbols = ['+', '-', '*'];
 
-const expression = (num1, symbol, num2) => {
+const calculate = (num1, symbol, num2) => {
   switch (symbol) {
     case '+':
       return num1 + num2;
@@ -14,15 +14,15 @@ const expression = (num1, symbol, num2) => {
       return num1 * num2;
   }
 };
-const round = () => {
-  const randomNumber = getRandomInt(0, 100);
-  const secondRandomNumber = getRandomInt(0, 100);
-  const symbol = expressionSymbol[getRandomInt(0, (expressionSymbol.length))];
+const generateRound = () => {
+  const num1 = getRandomInt(0, 100);
+  const num2 = getRandomInt(0, 100);
+  const symbol = expressionSymbols[getRandomInt(0, (expressionSymbols.length))];
 
-  const question = `${randomNumber} ${symbol} ${secondRandomNumber}`;
-  const correctAnswer = String(expression(randomNumber, symbol, secondRandomNumber));
+  const question = `${num1} ${symbol} ${num2}`;
+  const correctAnswer = String(calculate(num1, symbol, num2));
   return [question, correctAnswer];
 };
-const calcGame = () => startGame(round, rules);
+const runCalcGame = () => startGame(generateRound, rules);
 
-export default calcGame;
+export default runCalcGame;

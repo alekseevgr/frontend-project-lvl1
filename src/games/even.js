@@ -1,17 +1,16 @@
 import startGame from '../index.js';
-import getRandomInt from '../functionrandom.js';
+import getRandomInt from '../getRandomInt.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no"';
-const even = (num) => num % 2 === 0;
-const round = () => {
-  const randomNumber = getRandomInt(0, 100);
-  const isEven = even(randomNumber) ? 'yes' : 'no';
-  const question = randomNumber;
-  const correctAnswer = isEven;
+const isEven = (num) => num % 2 === 0;
+const generateRound = () => {
+  const num = getRandomInt(0, 100);
+  const correctAnswer = isEven(num) ? 'yes' : 'no';
+  const question = num;
 
   return [question, correctAnswer];
 };
 
-const evenGame = () => startGame(round, rules);
+const runEvenGame = () => startGame(generateRound, rules);
 
-export default evenGame;
+export default runEvenGame;
