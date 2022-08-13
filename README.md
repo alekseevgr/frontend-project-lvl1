@@ -11,9 +11,29 @@ clone the repository or use
  ```bash
  git clone git@github.com:alekseevgr/frontend-project-lvl1.git
  ```
+ install dependencies
  ```bash
  make install
  ```
+## Start brain games
+```bash
+make brain-games
+```
+## Project publication
+```bash
+make publish
+```
+## Find and fix errors
+```bash
+make lint
+```
+## To start the game, enter one of the commands in the console
+```brain-calc```
+```brain-progression```
+```brain-even```
+```brain-gcd```
+```brain-prime```
+
 
 <h1>Game list </h1>
 <dl>
