@@ -6,11 +6,14 @@
 <h1> Description </h1>
 <p>Mind Games is a collection of five console games created using popular mobile brain training apps. Each game asks questions to be answered. After three correct answers, the game is considered completed. Incorrect results end the game and bring it back again.</p>
 
-<h1> Setup</h1>
-<ul>
- <li>clone the repository or use git clone git@github.com:alekseevgr/frontend-project-lvl1.git</li>
- <li>make install</li>
-</ul>
+## Setup
+clone the repository or use 
+ ```bash
+ git clone git@github.com:alekseevgr/frontend-project-lvl1.git
+ ```
+ ```bash
+ make install
+ ```
 
 <h1>Game list </h1>
 <dl>
@@ -29,13 +32,13 @@
 <h1> Game Trailer </h1>
 <dl>
 <dt>Brain Calc </dt>
-<dd><a href="https://asciinema.org/a/VTQ7AKkynQFtKovNdk0BX02F3" target="_blank"><img src="https://asciinema.org/a/VTQ7AKkynQFtKovNdk0BX02F3.svg" /></a></dd>
+<dd><a href="https://asciinema.org/a/ru1FGdjgbEabmmBJaqMcyXR5s" target="_blank"><img src="https://asciinema.org/a/ru1FGdjgbEabmmBJaqMcyXR5s.svg" /></a></dd>
 <dt>Brain Progression</dt>
-<dd><a href="https://asciinema.org/a/7VJs8Poab3I6ZYN9E7BN8Qc53" target="_blank"><img src="https://asciinema.org/a/7VJs8Poab3I6ZYN9E7BN8Qc53.svg" /></a></dd>
+<dd><a href="https://asciinema.org/a/Pp7YnR0vEgQCKiwKEzmZflJXT" target="_blank"><img src="https://asciinema.org/a/Pp7YnR0vEgQCKiwKEzmZflJXT.svg" /></a></dd>
 <dt>Brain Even</dt>
-<dd><a href="https://asciinema.org/a/kAGkVr4Qlrm2xWCgVhXsnYDlI" target="_blank"><img src="https://asciinema.org/a/kAGkVr4Qlrm2xWCgVhXsnYDlI.svg" /></a></dd>
+<dd><a href="https://asciinema.org/a/UOM1kukh49V7bDdzvSBlK7aMO" target="_blank"><img src="https://asciinema.org/a/UOM1kukh49V7bDdzvSBlK7aMO.svg" /></a></dd>
 <dt>Brain Gcd</dt>
-<dd><a href="https://asciinema.org/a/8U1N98xyNsXEIABfS32roN48L" target="_blank"><img src="https://asciinema.org/a/8U1N98xyNsXEIABfS32roN48L.svg" /></a></dd>
+<dd><a href="https://asciinema.org/a/mKpjvaVNeKRxfEYOVNteAYBo9" target="_blank"><img src="https://asciinema.org/a/mKpjvaVNeKRxfEYOVNteAYBo9.svg" /></a></dd>
 <dt>Brain Prime</dt>
-<dd><a href="https://asciinema.org/a/05JGDhTHTh8aYYZ4Cbx7kApwJ" target="_blank"><img src="https://asciinema.org/a/05JGDhTHTh8aYYZ4Cbx7kApwJ.svg" /></a></dd>
+<dd><a href="https://asciinema.org/a/dpNnKnkkjrKaiORMyuc3BSgaC" target="_blank"><img src="https://asciinema.org/a/dpNnKnkkjrKaiORMyuc3BSgaC.svg" /></a></dd>
 </dl>
