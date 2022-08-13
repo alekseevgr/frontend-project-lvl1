@@ -6,6 +6,9 @@
 <h1> Description </h1>
 <p>Mind Games is a collection of five console games created using popular mobile brain training apps. Each game asks questions to be answered. After three correct answers, the game is considered completed. Incorrect results end the game and bring it back again.</p>
 
+<h1> Requirements </h1>
+<p> Installed Node.js version 13 and above.</p>
+
 ## Setup
 clone the repository or use 
  ```bash
