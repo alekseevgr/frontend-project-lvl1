@@ -28,13 +28,21 @@ make publish
 make lint
 ```
 ## To start the game, enter one of the commands in the console
-```brain-calc```
-```brain-progression```
-```brain-even```
-```brain-gcd```
-```brain-prime```
-
-
+```bash
+brain-calc
+```
+```bash
+brain-progression
+```
+```bash
+brain-even
+```
+```bash
+brain-gcd
+```
+```bash
+brain-prime
+```
 <h1>Game list </h1>
 <dl>
 <dt> Brain Calc</dt>
